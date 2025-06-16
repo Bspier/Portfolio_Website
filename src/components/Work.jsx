@@ -1,5 +1,7 @@
 import React from 'react'
 import CreateAndPlay from '../assets/projects/create_and_play.png';
+import YoutTube_Certified from '../assets/projects/Youtube_Certified.png'
+import Workout_tracker from '../assets/projects/Workout_tracker.png'
 
 const Work = () => {
   return (
@@ -36,19 +38,19 @@ const Work = () => {
 
                 {/*Grid Item*/}
                 <div 
-                style={{backgroundImage: `url(${CreateAndPlay})`}}
+                style={{backgroundImage: `url(${YoutTube_Certified})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                 >                    
                     {/*Hover Effect*/}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='text-center opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            Handlebars JS SQL Database
                         </span>
                         <div className='pt-8 text-center'>
-                                {/*<a href="/">
+                                {<a href="https://youtube-certified-database.up.railway.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>*/}
-                                <a href="/">
+                                </a>}
+                                <a href="https://github.com/Bspier/Database_Portfolio_Project">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                         </div>
@@ -57,19 +59,19 @@ const Work = () => {
 
                 {/*Grid Item*/}
                 <div 
-                style={{backgroundImage: `url(${CreateAndPlay})`}}
+                style={{backgroundImage: `url(${Workout_tracker})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                 >
                     {/*Hover Effect*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            Fullstack MERN App
                         </span>
                         <div className='pt-8 text-center'>
-                                {/*<a href="/">
+                                {<a href="https://workout-tracker-mern-3.onrender.com">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>*/}
-                                <a href="/">
+                                </a>}
+                                <a href="https://github.com/Bspier/Workout_Tracker_MERN">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                         </div>

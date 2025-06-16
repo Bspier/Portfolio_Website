@@ -15,12 +15,14 @@ const About = () => {
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>
-                            Hello my name is Brian, please take a look around.
+                            Hi, I’m Brian — welcome to my corner of the web.
                         </p>
                     </div>
                     <div>
                         <p>
-                            something about me 
+                            I’m a full-stack developer with a passion for building meaningful and efficient solutions. With a background in both computer science and biology, 
+                            I bring a unique perspective to problem-solving — blending analytical thinking with creative execution. Whether it's developing intuitive user interfaces 
+                            or architecting backend systems, I thrive on turning ideas into working products. 
                         </p>
                     </div>
                 </div>
